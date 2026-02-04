@@ -40,3 +40,10 @@ smali/jcifs/netbios/NbtAddress.smali:    sget-object v0, Ljcifs/netbios/NbtAddre
 smali/jcifs/netbios/NbtAddress.smali:    sget-object v0, Ljcifs/netbios/NbtAddress;->localhost:Ljcifs/netbios/NbtAddress;
 smali/jcifs/netbios/NbtSocket.smali:    sget-object v5, Ljcifs/netbios/NbtAddress;->localhost:Ljcifs/netbios/NbtAddress;
 
+grep -r 35864
+smali/com/estrongs/android/pop/app/AudioPlayerService.smali:    const-string v0, "http://127.0.0.1:35864/"
+
+grep -r 59777
+smali/com/estrongs/android/pop/app/PopAudioPlayer.smali:    const-string v1, "http://127.0.0.1:59777/"
+smali/com/estrongs/android/pop/app/PopAudioPlayer.smali:    const-string v1, "http://127.0.0.1:59777/"
+smali/com/estrongs/android/pop/app/PopAudioPlayer.smali:    const-string v1, "http://127.0.0.1:59777/"
