@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="-20.0dip" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/titleBar" android:background="@drawable/popbox_moveto_path_bg" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:focusable="true" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.estrongs.android.pop.esclasses.ESImageView android:id="@id/deviceIcon" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="2.0dip" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/popupbox_content_text" android:ellipsize="end" android:id="@id/tvFilePath" android:paddingLeft="2.0dip" android:layout_width="0.0dip" android:layout_height="30.0dip" android:singleLine="true" android:layout_weight="1.0" />
+        <com.estrongs.android.pop.esclasses.ESImageView android:id="@id/btnUp" android:paddingRight="5.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/main_addressbar_up" android:scaleType="center" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/contentPanel" android:background="@drawable/popbox_moveto_content_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include android:id="@id/content_grid" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/content_grid" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/load_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ProgressBar" />
+    </FrameLayout>
+</LinearLayout>

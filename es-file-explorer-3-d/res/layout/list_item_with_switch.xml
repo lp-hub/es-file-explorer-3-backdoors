@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/popupbox_listview_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.estrongs.android.pop">
+    <com.estrongs.android.pop.esclasses.ESImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dip" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/taskcenter_finished_tab_text" android:gravity="center_vertical" android:id="@id/label" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="1.0" android:textDirection="ltr" />
+    <com.estrongs.android.ui.view.SimpleSwitchButton android:gravity="center" android:id="@id/switchWidget" android:visibility="gone" android:clickable="true" android:layout_width="60.0dip" android:layout_height="42.0dip" android:layout_marginRight="15.0dip" app:thumb="@drawable/switch_inner_holo_dark" app:track="@drawable/switch_track_holo_dark" app:textOn="@string/capital_on" app:textOff="@string/capital_off" app:thumbTextPadding="12.0dip" app:switchTextAppearance="@style/TextAppearance.Holo.Light.Widget.Switch" app:switchMinWidth="60.0dip" app:switchPadding="6.0dip" />
+</LinearLayout>

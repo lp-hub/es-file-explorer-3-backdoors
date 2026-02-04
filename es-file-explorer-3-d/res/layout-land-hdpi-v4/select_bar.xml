@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/select_bar_top" android:background="@drawable/toolbar_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.estrongs.android.pop.esclasses.ESImageView android:id="@id/tool_done" android:background="@drawable/background_globle_buttons" android:focusable="true" android:nextFocusDown="@id/tool_select_interval" android:layout_width="fill_parent" android:layout_height="60.0dip" android:src="@drawable/toolbar_edit_done" android:scaleType="center" />
+    <View android:focusable="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.estrongs.android.pop.esclasses.ESImageView android:id="@id/tool_select_interval" android:background="@drawable/background_globle_buttons" android:focusable="true" android:nextFocusUp="@id/tool_done" android:layout_width="fill_parent" android:layout_height="60.0dip" android:src="@drawable/toolbar_edit_selectinterval" android:scaleType="center" />
+    <com.estrongs.android.pop.esclasses.ESImageView android:id="@id/tool_select_all" android:background="@drawable/background_globle_buttons" android:focusable="true" android:nextFocusUp="@id/tool_select_interval" android:layout_width="fill_parent" android:layout_height="60.0dip" android:src="@drawable/toolbar_edit_selectall" android:scaleType="center" />
+    <com.estrongs.android.pop.esclasses.ESImageView android:id="@id/tool_select_none" android:background="@drawable/background_globle_buttons" android:focusable="true" android:visibility="gone" android:nextFocusUp="@id/tool_select_interval" android:layout_width="fill_parent" android:layout_height="60.0dip" android:src="@drawable/toolbar_edit_selectnone" android:scaleType="center" />
+</LinearLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="view_item_names">
+        <item>Büyük Simge</item>
+        <item>Orta Simge</item>
+        <item>Küçük Simge</item>
+        <item>Geniş Liste</item>
+        <item>Orta Liste</item>
+        <item>Küçük Liste</item>
+        <item>Geniş Ayrıntı</item>
+        <item>Orta Ayrıntı</item>
+        <item>Küçük Ayrıntı</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Düşük</item>
+        <item>Orta</item>
+        <item>İyi</item>
+        <item>Mükemmel</item>
+    </string-array>
+    <string-array name="wifi_statuses">
+        <item></item>
+        <item>Taranıyorâ\u0080¦</item>
+        <item>Bağlanıyorâ\u0080¦</item>
+        <item>Kimlik Doğrulanıyorâ\u0080¦</item>
+        <item>IP adresi alınıyorâ\u0080¦</item>
+        <item>Bağlandı</item>
+        <item>Askıya alındı</item>
+        <item>Bağlantı kesiliyorâ\u0080¦</item>
+        <item>Bağlantı kesildi</item>
+        <item>Başarısız</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Taranıyorâ\u0080¦</item>
+        <item>Bağlanıyor: %1$sâ\u0080¦</item>
+        <item>Kimlik doğrulanıyor: %1$sâ\u0080¦</item>
+        <item>IP adresi alınıyor: %1$sâ\u0080¦</item>
+        <item>Bağlandı: %1$s</item>
+        <item>Askıya alındı</item>
+        <item>Bağlantı kesiliyor: %1$sâ\u0080¦</item>
+        <item>Bağlantı kesildi</item>
+        <item>Başarısız</item>
+    </string-array>
+    <string-array name="new_navi_groups">
+        <item>Favori</item>
+        <item>Yerel</item>
+        <item>Kütüphane</item>
+        <item>Ağ</item>
+        <item>Araçlar</item>
+    </string-array>
+    <string-array name="theme_folders">
+        <item>Varsayılan</item>
+        <item>Sarı</item>
+        <item>Yeşil</item>
+        <item>Kırmızı</item>
+        <item>Pembe</item>
+        <item>Siyah</item>
+    </string-array>
+    <string-array name="netdisk_names">
+        <item>Kutu</item>
+        <item>SugarSync</item>
+        <item>DropBox</item>
+        <item>Skydrive</item>
+        <item>Gdrive</item>
+        <item>S3</item>
+        <item>Yandex</item>
+        <item>Ubuntu</item>
+        <item>KuaiPan</item>
+        <item>KanBox</item>
+        <item>Sina VDisk</item>
+        <item>Baidu NetDisk</item>
+    </string-array>
+    <string-array name="preference_sort_entries">
+        <item>İsim</item>
+        <item>Tür</item>
+        <item>Boyut</item>
+        <item>Değişim</item>
+    </string-array>
+    <string-array name="search_condition_size">
+        <item>All</item>
+        <item>0 â\u0080\u0093 100 KB</item>
+        <item>100KB - 1 MB</item>
+        <item>1 MB - 16 MB</item>
+        <item>16 MB - 128 MB</item>
+        <item>> 128 MB</item>
+        <item>Giriş</item>
+    </string-array>
+    <string-array name="search_condition_date">
+        <item>Tümü</item>
+        <item>Bugün</item>
+        <item>Dün</item>
+        <item>Bu hafta</item>
+        <item>Bu ay</item>
+        <item>Bu yıl</item>
+        <item>> 1 yıl</item>
+        <item>Giriş</item>
+    </string-array>
+    <string-array name="zip_levels">
+        <item>Sadece Sakla</item>
+        <item>Hızlı</item>
+        <item>Standart</item>
+        <item>En iyi</item>
+    </string-array>
+    <string-array name="image_slide_interval">
+        <item>1 s</item>
+        <item>3 s</item>
+        <item>5 s</item>
+        <item>10 s</item>
+        <item>15 s</item>
+    </string-array>
+    <string-array name="pick_and_return_file_entries">
+        <item>"Normal Android Yolu
+(For MMS,Gmail,â\u0080¦)"</item>
+        <item>"Dosya yolu
+(Üstteki olmazsa bunu deneyin)"</item>
+    </string-array>
+    <string-array name="diskusage_sort_entries">
+        <item>İsim</item>
+        <item>Tür</item>
+        <item>Boyut</item>
+    </string-array>
+    <string-array name="line_terminator_entries">
+        <item>DOS Terminatörleri - CR/LF</item>
+        <item>UNIX Terminatörleri - LF</item>
+        <item>MAC Terminatörleri - CR</item>
+    </string-array>
+</resources>

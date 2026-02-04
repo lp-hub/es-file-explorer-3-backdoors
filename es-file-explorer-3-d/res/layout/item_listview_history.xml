@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.estrongs.android.pop.esclasses.ESImageView android:id="@id/image_item_listview_history" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:src="@drawable/history_listitem_file" android:scaleType="fitCenter" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="42.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="16.0dip" android:textColor="@color/popupbox_content_text" android:gravity="center_vertical" android:id="@id/text_listview_history" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="ltr" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/popupbox_content_text" android:gravity="center_vertical" android:id="@id/path_item_listview_history" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="ltr" />
+    </LinearLayout>
+</LinearLayout>

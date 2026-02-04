@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/background_menu_item" android:focusable="true" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="43.0dip" android:minWidth="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="14.0dip" android:textColor="@color/toolbar_edit_more_list_text" android:gravity="center|left" android:id="@id/button" android:background="@drawable/blank" android:paddingLeft="6.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="42.0dip" android:drawablePadding="6.0dip" />
+    <View android:id="@id/divider" android:background="@drawable/toolbar_search_sp" android:clickable="false" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

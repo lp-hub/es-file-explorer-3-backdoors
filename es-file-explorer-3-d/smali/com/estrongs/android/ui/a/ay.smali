@@ -1,0 +1,36 @@
+.class Lcom/estrongs/android/ui/a/ay;
+.super Lcom/estrongs/android/ui/a/a;
+
+
+# instance fields
+.field final synthetic h:Lcom/estrongs/android/ui/a/s;
+
+
+# direct methods
+.method constructor <init>(Lcom/estrongs/android/ui/a/s;Landroid/graphics/drawable/Drawable;Ljava/lang/String;Landroid/view/View$OnClickListener;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/estrongs/android/ui/a/ay;->h:Lcom/estrongs/android/ui/a/s;
+
+    invoke-direct {p0, p2, p3, p4}, Lcom/estrongs/android/ui/a/a;-><init>(Landroid/graphics/drawable/Drawable;Ljava/lang/String;Landroid/view/View$OnClickListener;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()Z
+    .locals 1
+
+    iget-object v0, p0, Lcom/estrongs/android/ui/a/ay;->h:Lcom/estrongs/android/ui/a/s;
+
+    invoke-static {v0}, Lcom/estrongs/android/ui/a/s;->c(Lcom/estrongs/android/ui/a/s;)Lcom/estrongs/android/pop/q;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/estrongs/android/pop/q;->j()Z
+
+    move-result v0
+
+    return v0
+.end method

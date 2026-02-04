@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/drawer_content_top" android:background="@drawable/clipboard_content_top" android:layout_width="fill_parent" android:layout_height="34.0dip">
+            <TextView android:textSize="18.0dip" android:textColor="@color/clipboard_title_text" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/location_clipboard" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/drawer_content_container" android:background="@drawable/background_content_clipboard" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/clipboard_listview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+            </ScrollView>
+            <com.estrongs.android.pop.esclasses.ESImageView android:background="@drawable/clipboard_shadow_inside" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/hide_clipboard" android:background="@drawable/clipboard_content_select_bg" android:focusable="true" android:layout_width="fill_parent" android:layout_height="36.0dip">
+            <CheckBox android:id="@id/checkbox_hide_clipboard" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="4.0dip" android:button="@drawable/checkbox_grid_file_drawable" />
+            <TextView android:textSize="12.0dip" android:textColor="#ff6e6e6e" android:id="@id/text_hide_clipboard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/hide_clipboard" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/drawer_content_bottom" android:background="@drawable/clipboard_content_bottom" android:layout_width="fill_parent" android:layout_height="58.0dip" android:baselineAligned="false">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <Button android:textSize="14.0dip" android:textColor="@color/clipboard_title_text" android:id="@id/clipboard_button_pasteall" android:background="@drawable/clipboard_toolbar_icon_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/action_paste_all" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <Button android:textSize="14.0dip" android:textColor="@color/clipboard_title_text" android:id="@id/clipboard_button_clear" android:background="@drawable/clipboard_toolbar_icon_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/action_clear_all" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <Button android:textSize="14.0dip" android:textColor="@color/clipboard_title_text" android:id="@id/clipboard_button_close" android:background="@drawable/clipboard_toolbar_icon_bg_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/action_close" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/gridview_item_clipboard" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <Button android:textSize="14.0dip" android:textColor="@color/clipboard_content_button_text" android:id="@id/clipboard_button_paste" android:layout_width="80.0dip" android:layout_height="wrap_content" android:text="@string/action_paste" />
+        <Button android:textSize="14.0dip" android:textColor="@color/clipboard_content_button_text" android:id="@id/clipboard_button_delete" android:layout_width="80.0dip" android:layout_height="wrap_content" android:text="@string/action_clear" />
+    </LinearLayout>
+</LinearLayout>

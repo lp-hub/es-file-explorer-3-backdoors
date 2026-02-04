@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.estrongs.android.widget.SlidingDrawer android:id="@id/clipboard" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:handle="@id/handle_clipboard" app:content="@id/content_clipboard" app:orientation="0" app:bottomOffset="0.0dip" app:topOffset="0.0dip" app:allowSingleTap="true" app:animateOnClick="true" app:direction="from_left_to_right"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.estrongs.android.pop">
+    <com.estrongs.android.pop.esclasses.ESImageView android:id="@id/handle_clipboard" android:background="@drawable/clipboard_shadow_right" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/handle_clipboard" />
+    <include android:id="@id/content_clipboard" layout="@layout/content_clipboard" />
+</com.estrongs.android.widget.SlidingDrawer>

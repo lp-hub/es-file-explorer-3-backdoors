@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/listview_history" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="48.0dip" android:listSelector="@drawable/popupbox_listview_selector" android:cacheColorHint="@color/transparent" android:divider="@drawable/toolbar_search_sp" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/window_history_bottom_button" android:background="@drawable/popupbox_button_cancel_single_selector" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true">
+        <com.estrongs.android.pop.esclasses.ESImageView android:id="@id/window_history_bottom_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/toolbar_edit_delete" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/black" android:id="@id/window_history_bottom_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/action_clear" />
+    </LinearLayout>
+</RelativeLayout>

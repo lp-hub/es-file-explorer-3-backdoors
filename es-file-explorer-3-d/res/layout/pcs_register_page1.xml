@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="18.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="14.0dip" android:textColor="@color/popupbox_content_text" android:id="@id/number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:hint="@string/pcs_register_number_hint" android:inputType="number" style="@style/editInputText" />
+    <EditText android:textSize="14.0dip" android:textColor="@color/popupbox_content_text" android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="20.0dip" android:hint="@string/pcs_login_password_hint" android:inputType="textPassword" style="@style/editInputText" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="20.0dip">
+        <Button android:textSize="20.0dip" android:textColor="@color/popupbox_button_text" android:id="@id/confirm" android:background="@drawable/popupbox_button_confirm_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/confirm_ok" />
+        <ProgressBar android:id="@id/progress" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:indeterminateDrawable="@drawable/progress_drawable" android:layout_alignRight="@id/confirm" android:layout_centerVertical="true" style="@android:style/Widget.ProgressBar.Small" />
+    </RelativeLayout>
+    <View android:id="@id/divider" android:background="@drawable/toolbar_search_sp" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="12.0dip" />
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="20.0dip">"
+<TextView android:textSize="16.0dip" android:textColor="@color/blue_link" android:id="@id/message_register" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pcs_register_message" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/blue_link" android:autoLink="web" android:id="@id/login_now" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/login_if_registered" />
+    </LinearLayout>
+</LinearLayout>

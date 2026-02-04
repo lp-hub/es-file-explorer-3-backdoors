@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/bottom_menu_playing" android:background="@drawable/toolbar_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/preview_container" android:background="@drawable/background_globle_buttons" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/tool_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/app_new_audio_prev" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/repeat_container" android:background="@drawable/background_globle_buttons" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/tool_repeat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/app_new_audio_repeat" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/play_container" android:background="@drawable/background_globle_buttons" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/tool_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/app_new_audio_ctrl_play" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/shuffle_container" android:background="@drawable/background_globle_buttons" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/tool_shuffle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/app_new_audio_ctrl_shuffle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/next_container" android:background="@drawable/background_globle_buttons" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/tool_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/app_new_audio_ctrl_next" />
+    </LinearLayout>
+</LinearLayout>

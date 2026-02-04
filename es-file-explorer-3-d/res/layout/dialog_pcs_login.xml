@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="18.0dip" android:paddingTop="18.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <EditText android:textSize="14.0dip" android:textColor="@color/popupbox_content_text" android:id="@id/username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/pcs_login_username_hint" style="@style/editInputText" />
+        <EditText android:textSize="14.0dip" android:textColor="@color/popupbox_content_text" android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:hint="@string/pcs_login_password_hint" android:inputType="textPassword" style="@style/editInputText" />
+        <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/verifycode_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+            <EditText android:textSize="14.0dip" android:textColor="@color/popupbox_content_text" android:id="@id/verifycode" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="8.0dip" android:hint="@string/verifycode_hint" android:maxLines="1" android:lines="1" android:maxLength="10" android:layout_weight="1.0" style="@style/editInputText" />
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip">
+                <com.estrongs.android.pop.esclasses.ESImageView android:id="@id/verifycodeImg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.estrongs.android.pop.esclasses.ESImageView android:id="@id/verify_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="@color/blue_link" android:id="@id/forget" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pcs_login_forget" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+            <Button android:textSize="20.0dip" android:textColor="@color/popupbox_button_text" android:id="@id/confirm" android:background="@drawable/popupbox_button_confirm_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/action_login" />
+            <ProgressBar android:id="@id/progress" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:indeterminateDrawable="@drawable/progress_drawable" android:layout_alignRight="@id/confirm" android:layout_centerVertical="true" style="@android:style/Widget.ProgressBar.Small" />
+        </RelativeLayout>
+        <TextView android:textSize="12.0dip" android:textColor="@color/popupbox_content_text" android:gravity="center_horizontal" android:id="@id/support" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/pcs_login_support" />
+        <View android:background="@drawable/toolbar_search_sp" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="12.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/third_login_panel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0dip" android:textColor="@color/popupbox_content_text" android:id="@id/third_part" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/pcs_login_third_part" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+                <com.estrongs.android.pop.esclasses.ESImageView android:id="@id/renren" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pcs_login_renren" />
+                <com.estrongs.android.pop.esclasses.ESImageView android:id="@id/weibo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:src="@drawable/pcs_login_weibo" />
+                <com.estrongs.android.pop.esclasses.ESImageView android:id="@id/qq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:src="@drawable/pcs_login_qq" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textColor="@color/blue_link" android:autoLink="all" android:id="@id/pcs_reg_account" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/pcs_reg_account" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/RelativeLayout01" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/textbar_top" android:background="@drawable/main_titlebar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0dip" android:textColor="@color/main_titlebar_text" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_net_manager" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/toolbar_container_top" android:background="@drawable/toolbar_bg" android:layout_width="fill_parent" android:layout_height="43.299988dip" android:layout_below="@id/textbar_top">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:layout_width="54.0dip" android:layout_height="fill_parent">
+                <ProgressBar android:id="@id/progress" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ProgressBar" />
+            </LinearLayout>
+            <TextView android:textSize="16.0dip" android:textColor="@color/main_addressbar_text" android:gravity="center" android:id="@id/label" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center" android:id="@id/container_return" android:background="@drawable/background_globle_buttons" android:layout_width="54.0dip" android:layout_height="fill_parent">
+                <com.estrongs.android.pop.esclasses.ESImageView android:id="@id/tool_return" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/toolbar_close" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/toolbar_bottom" android:background="@drawable/toolbar_bg" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/body_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/toolbar_bottom" android:layout_below="@id/toolbar_container_top" />
+    <com.estrongs.android.pop.esclasses.ESImageView android:background="@drawable/shadow_tools_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar_container_top" />
+    <com.estrongs.android.pop.esclasses.ESImageView android:background="@drawable/shadow_tools_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="54.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>
