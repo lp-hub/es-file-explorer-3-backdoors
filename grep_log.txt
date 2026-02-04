@@ -21,3 +21,22 @@ smali/com/jcraft/jsch/ChannelX11.smali:    const-string v0, "127.0.0.1"
 smali/com/jcraft/jsch/Session.smali:    const-string v0, "127.0.0.1"
 smali/jcifs/dcerpc/DcerpcHandle.smali:    const-string v0, "127.0.0.1"
 smali/jcifs/netbios/NbtAddress.smali:    const-string v1, "127.0.0.1"
+
+grep -r localhost
+smali/com/estrongs/android/pop/app/b/g.smali:    const-string v2, "localhost"
+smali/com/estrongs/android/ui/view/ap.smali:    const-string v0, "localhost"
+smali/com/estrongs/android/ui/view/o.smali:    const-string v0, "localhost"
+smali/com/estrongs/android/ui/view/o.smali:    const-string v3, "https://localhost"
+smali/com/estrongs/android/ui/view/o.smali:    const-string v3, "http://localhost"
+smali/com/estrongs/android/ui/view/o.smali:    const-string v3, "http://localhost"
+smali/com/estrongs/android/ui/view/o.smali:    const-string v3, "http://localhost"
+smali/com/estrongs/android/ui/view/u.smali:    const-string v1, "localhost"
+smali/com/estrongs/fs/b/af.smali:    const-string v5, "GET /hostname HTTP/1.1\r\nConnection: Keep-Alive\r\nAccept-Encoding: gzip\r\nUser-Agent: Dalvik\r\nHost: localhost\r\nContent-Length: "
+smali/com/estrongs/fs/b/at.smali:    const-string v4, "Host: localhost\r\n"
+smali/jcifs/netbios/NbtAddress.smali:.field static localhost:Ljcifs/netbios/NbtAddress;
+smali/jcifs/netbios/NbtAddress.smali:    sput-object v0, Ljcifs/netbios/NbtAddress;->localhost:Ljcifs/netbios/NbtAddress;
+smali/jcifs/netbios/NbtAddress.smali:    sget-object v0, Ljcifs/netbios/NbtAddress;->localhost:Ljcifs/netbios/NbtAddress;
+smali/jcifs/netbios/NbtAddress.smali:    sget-object v0, Ljcifs/netbios/NbtAddress;->localhost:Ljcifs/netbios/NbtAddress;
+smali/jcifs/netbios/NbtAddress.smali:    sget-object v0, Ljcifs/netbios/NbtAddress;->localhost:Ljcifs/netbios/NbtAddress;
+smali/jcifs/netbios/NbtSocket.smali:    sget-object v5, Ljcifs/netbios/NbtAddress;->localhost:Ljcifs/netbios/NbtAddress;
+
