@@ -2,3 +2,22 @@ grep -r user/
 smali/com/estrongs/fs/impl/pcs/PcsFileSystem.smali:    const-string v0, "https://openapi.baidu.com/yunid/user/fulfilbinding"
 smali/com/estrongs/fs/impl/pcs/PcsFileSystem.smali:    const-string v0, "https://openapi.baidu.com/yunid/user/bindingcaptcha"
 
+grep -r 127.0.0.1
+res/layout/dialog_recv_result.xml:            <TextView android:textSize="14.0dip" android:textColor="@color/preference_summary_grey" android:gravity="center_vertical" android:id="@id/ip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="127.0.0.1" android:layout_weight="1.0" />
+smali/com/estrongs/android/c/g.smali:    const-string v2, "127.0.0.1"
+smali/com/estrongs/android/pop/app/a/a.smali:    const-string v3, "http://127.0.0.1:"
+smali/com/estrongs/android/pop/app/AudioPlayerService.smali:    const-string v0, "http://127.0.0.1:35864/"
+smali/com/estrongs/android/pop/app/PopAudioPlayer.smali:    const-string v1, "http://127.0.0.1:59777/"
+smali/com/estrongs/android/pop/app/PopAudioPlayer.smali:    const-string v1, "http://127.0.0.1:59777/"
+smali/com/estrongs/android/pop/app/PopAudioPlayer.smali:    const-string v1, "http://127.0.0.1:59777/"
+smali/com/estrongs/android/pop/app/PopVideoPlayer.smali:    const-string v0, "127.0.0.1"
+smali/com/estrongs/android/pop/app/PopVideoPlayer.smali:    const-string v4, "127.0.0.1"
+smali/com/estrongs/android/ui/e/er.smali:    const-string v1, "http://127.0.0.1:"
+smali/com/estrongs/android/ui/view/u.smali:    const-string v3, "http://127.0.0.1:50767"
+smali/com/estrongs/android/util/ak.smali:    const-string v2, "127.0.0.1:"
+smali/com/estrongs/android/util/ak.smali:    const-string v2, "http://127.0.0.1"
+smali/com/jcraft/jsch/ChannelDirectTCPIP.smali:    const-string v0, "127.0.0.1"
+smali/com/jcraft/jsch/ChannelX11.smali:    const-string v0, "127.0.0.1"
+smali/com/jcraft/jsch/Session.smali:    const-string v0, "127.0.0.1"
+smali/jcifs/dcerpc/DcerpcHandle.smali:    const-string v0, "127.0.0.1"
+smali/jcifs/netbios/NbtAddress.smali:    const-string v1, "127.0.0.1"
