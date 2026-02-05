@@ -1,0 +1,16 @@
+package android.support.v4.content;
+
+import java.util.concurrent.ThreadFactory;
+import java.util.concurrent.atomic.AtomicInteger;
+
+/* loaded from: classes.dex */
+final class c implements ThreadFactory {
+
+    /* renamed from: a, reason: collision with root package name */
+    private final AtomicInteger f45a = new AtomicInteger(1);
+
+    @Override // java.util.concurrent.ThreadFactory
+    public Thread newThread(Runnable runnable) {
+        return new Thread(runnable, "ModernAsyncTask #" + this.f45a.getAndIncrement());
+    }
+}

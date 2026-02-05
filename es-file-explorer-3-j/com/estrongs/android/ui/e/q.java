@@ -1,0 +1,24 @@
+package com.estrongs.android.ui.e;
+
+import android.view.View;
+import com.estrongs.android.pop.app.PopAudioPlayer;
+
+/* JADX INFO: Access modifiers changed from: package-private */
+/* loaded from: classes.dex */
+public class q implements View.OnClickListener {
+
+    /* renamed from: a, reason: collision with root package name */
+    final /* synthetic */ o f2189a;
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public q(o oVar) {
+        this.f2189a = oVar;
+    }
+
+    @Override // android.view.View.OnClickListener
+    public void onClick(View view) {
+        PopAudioPlayer popAudioPlayer;
+        popAudioPlayer = this.f2189a.g;
+        popAudioPlayer.k();
+    }
+}

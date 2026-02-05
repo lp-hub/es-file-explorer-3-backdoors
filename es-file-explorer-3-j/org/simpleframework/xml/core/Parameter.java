@@ -1,0 +1,32 @@
+package org.simpleframework.xml.core;
+
+import java.lang.annotation.Annotation;
+
+/* loaded from: classes.dex */
+interface Parameter {
+    Annotation getAnnotation();
+
+    Expression getExpression();
+
+    int getIndex();
+
+    String getName();
+
+    String getName(Context context);
+
+    String getPath();
+
+    String getPath(Context context);
+
+    Class getType();
+
+    boolean isAttribute();
+
+    boolean isPrimitive();
+
+    boolean isRequired();
+
+    boolean isText();
+
+    String toString();
+}
